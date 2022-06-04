@@ -508,6 +508,8 @@ img {
     fill: currentColor;
 }
 
+=================== /*форма для модального вікна*/================
+
 .form {
     width: 528px;
     padding: 40px;
@@ -605,13 +607,6 @@ textarea:focus {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
 
 /*.icon-check {
     display: inline-block;
@@ -623,7 +618,7 @@ textarea:focus {
     cursor: pointer;
 }*/
 
-.agreement {
+.checkup {
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -633,23 +628,23 @@ textarea:focus {
     overflow: hidden;
 }
 
-.agreement-position {
+.checkup-position {
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.form-field-agreement {
+.form-area-checkup {
     margin-top: 20px;
     width: 100%;
     font-size: 14px;
     line-height: 1.71;
 }
 
-.form-field-agreement>span {
+.form-area-checkup>span {
     position: relative;
 }
 
-.agreement-icon {
+.checkup-icon {
     position: absolute;
     left: 0;
     top: 0;
@@ -664,12 +659,12 @@ textarea:focus {
 
 }
 
-.agreement-link {
+.checkup-link {
     margin-left: 4px;
     color: var(--accent-color);
 }
 
-.agreement:checked+.agreement-icon {
+.checkup:checked ~ .checkup-icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     fill: var(--white-text-color);
@@ -700,6 +695,8 @@ textarea:focus {
 .form-btn:focus {
     background-color: rgb(24, 140, 232);
 }
+  
+==============================================================================
 
 .menu {
     display: flex;
