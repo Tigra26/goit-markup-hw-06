@@ -672,9 +672,9 @@ textarea:focus {
     
 }
 
-/*.checkup:focus ~ .checkup-icon {
+.checkup:focus ~ .checkup-icon {
     border-color: var(--accent-color);
-}*/
+}
 
 .checkup:hover ~ .checkup-icon {
     border-color: var(--accent-color);
